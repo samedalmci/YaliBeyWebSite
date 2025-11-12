@@ -1,4 +1,4 @@
-import { Calendar, Mail } from 'lucide-react'
+import { Calendar, Mail } from "lucide-react";
 
 export default function AboutStory() {
   return (
@@ -10,8 +10,10 @@ export default function AboutStory() {
             Her Anınızı YalıBey’de Özel Kılın
           </h2>
           <p className="text-xl text-white/90 mb-10 leading-relaxed">
-            İster güne keyifli bir kahvaltıyla başlayın, ister akşam dostlarınızla unutulmaz bir masa kurun.  
-            Dilerseniz özel etkinlikleriniz için de size en uygun atmosferi birlikte tasarlayalım.
+            İster güne keyifli bir kahvaltıyla başlayın, ister akşam
+            dostlarınızla unutulmaz bir masa kurun. Dilerseniz özel
+            etkinlikleriniz için de size en uygun atmosferi birlikte
+            tasarlayalım.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -22,15 +24,9 @@ export default function AboutStory() {
               <Calendar className="w-5 h-5" />
               Rezervasyon Yap
             </a>
-            <a 
-              href="/Menu"
-              className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-lg font-medium hover:bg-white/10 transition-all duration-200"
-            >              
-              Menülerimizi Keşfedin
-            </a>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

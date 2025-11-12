@@ -8,7 +8,6 @@ export default function Header() {
   return (
     <header className="border-b bg-white/95 backdrop-blur-sm sticky top-0 z-[100]">
       <div className="container mx-auto px-4 py-5 flex items-center justify-between relative">
-        
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <Sparkles className="h-5 w-5 text-gray-800" />
@@ -26,18 +25,23 @@ export default function Header() {
             Ana Sayfa
           </a>
           <a
-            href="/About"
+            href="/BreakFast"
             className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
           >
-            Hakkımızda
+            Kahvaltı
           </a>
           <a
-            href="/Menu"
+            href="/Buffet"
             className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
           >
-            Menü
+            Açık Büfe
           </a>
-
+          <a
+            href="/Pub"
+            className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+          >
+            Meyhane
+          </a>
           {/* DROP-DOWN KAPSAYICI - py-4 EKLENEREK ALAN GENİŞLETİLDİ (Çözüm burada) */}
           <div
             className="relative py-4" // **DEĞİŞİKLİK BURADA: Dikey dolgu eklendi**
@@ -63,20 +67,20 @@ export default function Header() {
                 to="/Events/Weddings"
                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
               >
-                Düğünler ve Nişanlar
+                Nişan
               </Link>
               <Link
                 to="/Events/Birthdays"
                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
               >
-                Doğum Günü
+                Yaş Günü
               </Link>
               {/* <Link> yerine <a> kullanılmış, tutarlılık için <Link> önerilir */}
               <a
-                href="/Events/Corporate"
+                href="/Events/Proposal"
                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
               >
-                Kurumsal Etkinlikler
+                İsteme
               </a>
               <a
                 href="/Events/Custom"
@@ -86,6 +90,12 @@ export default function Header() {
               </a>
             </div>
           </div>
+          <a
+            href="/About"
+            className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+          >
+            Hakkımızda
+          </a>
 
           <a
             href="/ClientCalendar"
