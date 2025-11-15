@@ -10,26 +10,28 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-0 mb-12">
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <Sparkles className="h-5 w-5 text-gray-900" />
               <span className="text-lg font-serif font-semibold tracking-wide">
-                YALIBEY RESTAURANT
+                <img
+                  src="/src/assets/TalatYali/YaliBeyLogos.png"
+                  alt="YALIBEY RESTAURANT Logo"
+                  className="h-25 w-60 object-contain" // h-20 w-20 denenebilir
+                />
               </span>
             </div>
-            <p className="text-gray-600 leading-relaxed max-w-md">
-              Olağanüstü kutlamalar ve unutulmaz anlar yaratıyoruz
-            </p>
           </div>
+
+          {/* NAVİGASYON */}
           <div>
             <h3 className="font-medium mb-4 text-gray-900">Navigasyon</h3>
             <ul className="space-y-3 text-gray-600">
               <li>
                 <Link to="/" className="hover:text-gray-900 transition-colors">
-                  AnaSayfa
+                  Ana Sayfa
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/BreakFast"
+                  to="/kahvalti"
                   className="hover:text-gray-900 transition-colors"
                 >
                   Kahvaltı
@@ -37,7 +39,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/Buffet"
+                  to="/acik-bufe"
                   className="hover:text-gray-900 transition-colors"
                 >
                   Açık Büfe
@@ -45,7 +47,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/Pub"
+                  to="/meyhane"
                   className="hover:text-gray-900 transition-colors"
                 >
                   Meyhane
@@ -53,7 +55,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/About"
+                  to="/hakkimizda"
                   className="hover:text-gray-900 transition-colors"
                 >
                   Hakkımızda
@@ -61,7 +63,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/ClientCalendar"
+                  to="/musteri-randevulari"
                   className="hover:text-gray-900 transition-colors"
                 >
                   Danışmanlık Rezervasyonu
@@ -69,7 +71,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/login"
+                  to="/giris"
                   className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
                 >
                   Admin Giriş
@@ -77,20 +79,22 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
+          {/* ETKİNLİKLER */}
           <div>
             <h3 className="font-medium mb-4 text-gray-900">Etkinlikler</h3>
             <ul className="space-y-3 text-gray-600">
               <li>
                 <Link
-                  to="/Events/Weddings"
+                  to="/etkinlikler/dugun-organizasyonu"
                   className="hover:text-gray-900 transition-colors"
                 >
-                  Nişan
+                  Nişan / Düğün
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/Events/Birthdays"
+                  to="/etkinlikler/dogum-gunu"
                   className="hover:text-gray-900 transition-colors"
                 >
                   Yaş Günü
@@ -98,29 +102,38 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/Events/Proposal"
+                  to="/etkinlikler/evlilik-teklifi"
                   className="hover:text-gray-900 transition-colors"
                 >
-                  İsteme
+                  Evlilik Teklifi
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/Events/Custom"
+                  to="/etkinlikler/kendin-tasarla"
                   className="hover:text-gray-900 transition-colors"
                 >
                   Etkinliğini Kendin Tasarla
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/menu"
+                  className="hover:text-gray-900 transition-colors"
+                >
+                  Menu
+                </Link>
+              </li>
             </ul>
           </div>
 
+          {/* İLETİŞİM */}
           <div>
             <h3 className="font-medium mb-4 text-gray-900">İletişim</h3>
             <ul className="space-y-3 text-gray-600">
               <li>iletisim@luminaryevents.com</li>
               <li>+90 (555) 123-4567</li>
-              <li>İstanbul, Türkiye</li>
+              <li>Muğla, Türkiye</li>
             </ul>
           </div>
         </div>

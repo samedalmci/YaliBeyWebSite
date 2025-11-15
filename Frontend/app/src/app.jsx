@@ -38,19 +38,28 @@ export default function App() {
           </div>
         }
       />
-      <Route path="/login" element={<Login />} />
-      <Route path="/AdminCalendar" element={<AdminCalendar />} />
-      <Route path="/ClientCalendar" element={<MainClientCalendar />} />
-      <Route path="/About" element={<MainAbout />} />
-      <Route path="/Menu" element={<Menu />} />
-      <Route path="/Events/Custom" element={<DesignYourOwn />} />
-      <Route path="/Events/Weddings" element={<Weddings />} />
-      <Route path="/Events/Birthdays" element={<Birthdays />} />
-      <Route path="/Events/Corporate" element={<Corporate />} />
-      <Route path="/BreakFast" element={<BreakFast />} />
-      <Route path="/Pub" element={<Pub />} />
-      <Route path="/Buffet" element={<Buffet />} />
-      <Route path="/Events/Proposal" element={<Proposal />} />
+      {/* Kullanıcı Yönetimi */}
+      <Route path="/giris" element={<Login />} />
+
+      {/* Takvim ve Randevu */}
+      <Route path="/yonetici-takvimi" element={<AdminCalendar />} />
+      <Route path="/musteri-randevulari" element={<MainClientCalendar />} />
+
+      {/* Bilgilendirme Sayfaları */}
+      <Route path="/hakkimizda" element={<MainAbout />} />
+      <Route path="/menu" element={<Menu />} />
+
+      {/* Menü Detayları */}
+      <Route path="/kahvalti" element={<BreakFast />} />
+      <Route path="/meyhane" element={<Pub />} />
+      <Route path="/acik-bufe" element={<Buffet />} />
+
+      {/* Etkinlikler ve Organizasyonlar */}
+      <Route path="/etkinlikler/kendin-tasarla" element={<DesignYourOwn />} />
+      <Route path="/etkinlikler/dugun-organizasyonu" element={<Weddings />} />
+      <Route path="/etkinlikler/dogum-gunu" element={<Birthdays />} />
+      <Route path="/etkinlikler/kurumsal" element={<Corporate />} />
+      <Route path="/etkinlikler/evlilik-teklifi" element={<Proposal />} />
     </Routes>
   );
 }
