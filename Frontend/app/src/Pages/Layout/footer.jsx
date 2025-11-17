@@ -116,14 +116,6 @@ export default function Footer() {
                   Etkinliğini Kendin Tasarla
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/menu"
-                  className="hover:text-gray-900 transition-colors"
-                >
-                  Menu
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -132,7 +124,7 @@ export default function Footer() {
             <h3 className="font-medium mb-4 text-gray-900">İletişim</h3>
             <ul className="space-y-3 text-gray-600">
               <li>iletisim@luminaryevents.com</li>
-              <li>+90 (555) 123-4567</li>
+              <li>+90 (546) 4848-848</li>
               <li>Muğla, Türkiye</li>
             </ul>
           </div>

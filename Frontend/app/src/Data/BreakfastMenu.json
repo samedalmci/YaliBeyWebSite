@@ -1,0 +1,104 @@
+[
+  {
+    "category": "Kahvaltı",
+    "subcategories": [
+      {
+        "title": "Türk Usulü Klasik Serpme Kahvaltı",
+        "items": [
+          { "name": "Türk Usulü Klasik Serpme Kahvaltı", "description": "Kaşar Peyniri, Beyaz Peynir ve Lor Peyniri, Bal, Kaymak ve Vişne Reçeli, Çikolata ve Bal, Yeşillik" }
+        ]
+      },
+      {
+        "title": "Kahvaltı Tabağı",
+        "items": [
+          { "name": "Kahvaltı Tabağı", "description": "Beyaz Peynir ve Kaşar Peyniri, Domates Salatalık Roka Maydanoz, Siyah ve Yeşil Zeytin, Haşlanmış Yumurta, Tereyağ Bal, Çilek Reçeli ve Tahin Pekmez, Patates Kızartması, Sigara Böreği, Çay" }
+        ]
+      },
+      {
+        "title": "Çocuk Kahvaltı Tabağı",
+        "items": [
+          { "name": "Çocuk Kahvaltı Tabağı", "description": "Haşlanmış Yumurta, Pankek, Patates Kızartması ve Sosis, Yeşil ve Siyah Zeytin, Domates ve Salatalık, Çikolata" }
+        ]
+      },
+      {
+        "title": "İngiliz Kahvaltı Tabağı",
+        "items": [
+          { "name": "İngiliz Kahvaltı Tabağı", "description": "Bacon, Sosis, Fasulye, Mantar Sote, Hash Brown, Izgara Domates, Kızarmış Göz Yumurta, Kızarmış Ekmek, Çay" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "Kahvaltı Ekstralar",
+    "subcategories": [
+      {
+        "title": "Ara Sıcaklar",
+        "items": [
+          { "name": "Sosis Tava", "description": "Sosis, Baharat, Biber, Domatesli" },
+          { "name": "Sucuklu Yumurta", "description": "Tereyağında Yumurta ve Sucuk" },
+          { "name": "Omletler", "description": "Kaşar, Mantar, Biber Domates, Peynir, Maydanoz ve Salam seçenekli" },
+          { "name": "Gözleme", "description": "Patatesli, Peynirli ve Otlu" },
+          { "name": "Menemen", "description": "Domates, Soğan, Biber, Tereyağı, Yumurta ve Karabiber" }
+        ]
+      },
+      {
+        "title": "Yoğurt Kase Çeşitleri",
+        "items": [
+          { "name": "Yoğurt Kasesi", "description": "Chia Tohumlu ve Ballı" },
+          { "name": "Yoğurt Kasesi", "description": "Granola ve Bitter Çikolatalı" },
+          { "name": "Yoğurt Kasesi", "description": "Orman Meyveli" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "Ekmek Üstü ve Diğerleri",
+    "subcategories": [
+      {
+        "title": "Diğerleri",
+        "items": [
+          { "name": "Egg Benedict", "description": "Bir dilim ekmek üzerine avokado sosu kıvırcık marul roka somon fume poşe yumurta hollandez sos ile" },
+          { "name": "Mıhlama", "description": "Tereyağ, Mısır Unu ve Özel Peynir" },
+          { "name": "Izgara Hellim Peyniri", "description": "Tereyağında Kızarmış Hellim" }
+        ]
+      },
+      {
+        "title": "Tostlar",
+        "items": [
+          { "name": "Pankek Tabağı", "description": "Akçaağaç Şurubu, Mevsim Meyveleri ve Pudra Şekeri" },
+          { "name": "French Toast", "description": "İki dilim yumuşak ekmek ve üzerine prenses krema, üzerinde mevsim meyveleri, akçaağaç şurubu" },
+          { "name": "Kaşarlı Tost", "description": "Cips, Domates Salatalık Ketçap ve Mayonez" },
+          { "name": "Sucuklu Kaşarlı Tost", "description": "Sucuk ve Kaşar Peyniri" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "İçecekler",
+    "subcategories": [
+      {
+        "title": "Taze Sıkım Meyve Suları",
+        "items": [
+          { "name": "Portakal Suyu", "description": "Günlük taze sıkılmış mevsim portakallarından." },
+          { "name": "Havuç Suyu", "description": "Taze ve vitaminli havuçların sıkılmasıyla elde edilir." },
+          { "name": "Elma Suyu", "description": "Ferahlatıcı ve doğal elma suyu." },
+          { "name": "Pancar Suyu", "description": "Doğal pancarın sıkılmasıyla elde edilen sağlıklı içecek." },
+          { "name": "Nar Suyu", "description": "Antioksidan deposu taze sıkılmış nar suyu." },
+          { "name": "Karışık", "description": "Seçiminize göre iki veya daha fazla taze sıkım meyvenin karışımı." }
+        ]
+      },
+      {
+        "title": "Soft İçecekler",
+        "items": [
+          { "name": "Ice Tea", "description": "Kutu 330 ml" },
+          { "name": "Coca Cola", "description": "Kutu 330 ml" },
+          { "name": "Fanta", "description": "Kutu 330 ml" },
+          { "name": "Sprite", "description": "Kutu 330 ml" }
+        ]
+      }
+    ]
+  }
+]

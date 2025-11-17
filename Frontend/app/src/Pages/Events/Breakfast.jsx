@@ -1,6 +1,13 @@
 import Header from "../Layout/header.jsx";
 import Footer from "../Layout/footer.jsx";
 import AboutCTA from "../About/AboutCTA.jsx";
+import MenuSection from "../Menu/MenuSection"
+// import MenuGaleri from "./MenuGaleri.jsx"
+
+import MenuGaleri from "../Menu/MenuGaleri.jsx"
+import BreakfastMenu from "../../Data/BreakfastMenu.json";
+import BreakfastGaleri from "../../Data/BreakfastGaleri.json";
+
 
 export default function Breakfast() {
   return (
@@ -93,46 +100,13 @@ export default function Breakfast() {
               </div>
             </div>
 
-            {/* Alıntı kısmı */}
-            <div className="bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 rounded-2xl p-12 text-center shadow-2xl">
-              <p className="text-2xl md:text-3xl font-serif font-light text-gray-900 mb-4 italic leading-relaxed">
-                “Günün en güzel anı, güzel bir kahvaltı ile başlar.
-                <br />
-                YalıBey’de her sabah, huzurla dolu bir deneyime dönüşür.”
-              </p>
-              <p className="text-gray-600 font-medium">
-                — YalıBey Restaurant Ekibi
-              </p>
-            </div>
+            <MenuSection menuCategories={BreakfastMenu} />
+            
 
-            {/* GALERİ ALANI */}
-            <div className="mt-24 text-center">
-              <p className="text-sm font-medium text-amber-600 mb-2 tracking-widest uppercase">
-                Kahvaltıdan Kareler
-              </p>
-              <h2 className="text-3xl font-serif font-light text-gray-900 mb-10">
-                Lezzet, Manzara ve Keyif
-              </h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div className="col-span-2 lg:col-span-2">
-                  <img
-                    src="/src/assets/WebAsset/Breakfast4.jpg"
-                    alt="Kahvaltı Alanı"
-                    className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
-                  />
-                </div>
-                <img
-                  src="/src/assets/WebAsset/Breakfast4.jpg"
-                  alt="Serpme Kahvaltı"
-                  className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
-                />
-                <img
-                  src="/src/assets/WebAsset/Breakfast4.jpg"
-                  alt="Kahvaltı Detayı"
-                  className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
-                />
-              </div>
-            </div>
+
+
+            <MenuGaleri slides={BreakfastGaleri}/>
+        
           </div>
         </div>
       </section>

@@ -152,8 +152,9 @@ export default function MainClientCalendar() {
   }
 
   const handlePhoneCall = () => {
-    window.location.href = "tel:+905551234567"
+    window.location.href = "tel:+905464848848";
   }
+
   const openReservationModal = () => {
     const dateText = `${selectedDay} ${monthNames[currentDate.getMonth()]} ${currentDate.getFullYear()}`
     setReservationForm({

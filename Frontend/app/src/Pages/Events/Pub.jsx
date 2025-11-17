@@ -2,6 +2,13 @@ import Header from "../Layout/header.jsx";
 import Footer from "../Layout/footer.jsx";
 import AboutCTA from "../About/AboutCTA.jsx";
 import { Clock, MapPin } from "lucide-react";
+
+import MenuGaleri from "../Menu/MenuGaleri.jsx"
+import MenuSection from "../Menu/MenuSection"
+import PubMenu from "../../Data/PubMenu.json";
+import PubGaleri from "../../Data/PubGaleri.json";
+
+
 export default function Tavern() {
   const serviceTimes = [
     { time: "18:00", note: "İlk Sefer" },
@@ -9,6 +16,7 @@ export default function Tavern() {
     { time: "21:00", note: "Gece Servisi" },
     { time: "22:30", note: "Son Sefer" },
   ];
+  
   return (
     <div>
       <Header />
@@ -95,17 +103,11 @@ export default function Tavern() {
                 </p>
               </div>
             </div>
-            {/* Alıntı kısmı */}
-            <div className="bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 rounded-2xl p-12 text-center shadow-2xl">
-              <p className="text-2xl md:text-3xl font-serif font-light text-gray-900 mb-4 italic leading-relaxed">
-                “Bir kadeh dostluğa, bir meze anıya...
-                <br />
-                YalıBey Meyhanesi’nde her akşam, keyifli bir hatıraya dönüşür.”
-              </p>
-              <p className="text-gray-600 font-medium">
-                — YalıBey Restaurant Ekibi
-              </p>
-            </div>
+
+            <MenuSection menuCategories={PubMenu} />
+
+            <MenuGaleri slides={PubGaleri}/>
+
 
             <div className="mt-32 mb-24">
               <div className="text-center mb-12">
@@ -187,40 +189,11 @@ export default function Tavern() {
                         href="tel:0232XXX0000"
                         className="text-lg font-extrabold text-amber-600 hover:text-amber-700 transition-colors"
                       >
-                        0232 XXX XX XX
+                        +90 (546) 4848-848
                       </a>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            {/* GALERİ ALANI */}
-            <div className="mt-24 text-center">
-              <p className="text-sm font-medium text-amber-600 mb-2 tracking-widest uppercase">
-                Meyhaneden Kareler
-              </p>
-              <h2 className="text-3xl font-serif font-light text-gray-900 mb-10">
-                Lezzet, Sohbet ve Keyif
-              </h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div className="col-span-2 lg:col-span-2">
-                  <img
-                    src="/src/assets/WebAsset/Tavern3.jpg"
-                    alt="YalıBey Meyhane Alanı"
-                    className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
-                  />
-                </div>
-                <img
-                  src="/src/assets/WebAsset/Tavern3.jpg"
-                  alt="Meze Sunumu"
-                  className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
-                />
-                <img
-                  src="/src/assets/WebAsset/Tavern3.jpg"
-                  alt="Meyhane Detayı"
-                  className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
-                />
               </div>
             </div>
           </div>

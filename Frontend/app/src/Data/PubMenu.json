@@ -1,0 +1,150 @@
+[
+  {
+    "category": "Ana Yemekler",
+    "subcategories": [
+      {
+        "title": "Ana Yemek Çeşitleri",
+        "items": [
+          {
+            "name": "Chicken Biryani",
+            "description": "Tavuk, Basmati Pirinci, Yoğurt, Safran, Baharatlar (Kakule, Karanfil, Tarçın), Taze Soğan ve Kişniş içerir."
+          },
+          {
+            "name": "Tenderloin Steak with Cafe de Paris Sauce",
+            "description": "Bonfile (Tenderloin) eti, Café de Paris sosu (tereyağı, otlar ve baharat karışımı) ve yanında garnitür olarak sunulur."
+          }
+        ]
+      },
+      {
+        "title": "Dünya Mutfağı Seçenekleri",
+        "items": [
+          { "name": "Lasagne", "description": "Kıymalı bolonez sosu, beşamel sosu ve peynirle fırınlanmış kat kat İtalyan makarnası." },
+          { "name": "Chilly Con Carne", "description": "Kıyma, fasulye, domates ve baharatlarla hazırlanan Meksika usulü acı güveç." }
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "Ara Sıcaklar",
+    "subcategories": [
+      {
+        "title": "Kızartmalar",
+        "items": [
+          { "name": "Sigara Böreği", "description": "İncecik yufka içerisine taze peynir ve maydanoz dolgulu, çıtır çıtır kızartılmış." },
+          { "name": "Patates Kroket", "description": "İçerisi baharatlı püre, dışı çıtır pane ile hazırlanmış kızarmış patates topları." },
+          { "name": "Karışık Kızartma", "description": "Patlıcan, kabak, biber ve patatesin yoğurt sosu ile servis edilen karışık kızartması." },
+          { "name": "Kaşar Pane", "description": "Özel pane harcı ile kızartılmış, eriyen kaşar peyniri dilimleri." }
+        ]
+      },
+            {
+        "title": "Diğer Ara Sıcaklar",
+        "items": [
+          { "name": "Mantar Sote", "description": "Tereyağı, sarımsak ve baharatlarla sotelenmiş taze kültür mantarı." },
+          { "name": "İçli Köfte", "description": "Kıyma, ceviz ve baharatlarla doldurulmuş bulgurdan yapılan geleneksel lezzet." }
+
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "Soğuk Mezeler",
+    "subcategories": [
+      {
+        "title": "Mezeler",
+        "items": [
+
+          { "name": "Şakşuka", "description": "Kızarmış patlıcan, kabak ve biberlerin domates sosuyla harmanlanması." },
+          { "name": "Girit Meze", "description": "Taze otlar ve peynir ile hazırlanan kremsi ve ferahlatıcı Girit usulü meze." },
+          { "name": "Amerikan Salatası", "description": "Bezelye, havuç, patates ve turşu, mayonez ile harmanlanmış klasik lezzet." },
+          { "name": "Coleslaw", "description": "İnce doğranmış lahana ve havucun özel krema sosu ile hazırlanması." },
+          { "name": "Çerkez Tavuğu", "description": "Haşlanmış tavuk, ceviz, ekmek içi ve baharatlarla hazırlanan özel meze." },
+          { "name": "Humus", "description": "Nohut, tahin, limon suyu ve sarımsaktan yapılan geleneksel Ortadoğu mezesi." }
+        ]
+      },
+            {
+        "title": "Yoğurtlu Mezeler",
+        "items": [
+          { "name": "Atom", "description": "Acı biber ve yoğurt bazlı, yoğun baharatlı özel meze." },       
+          { "name": "Semizotu", "description": "Sarımsaklı veya sade yoğurt ile hazırlanmış taze semizotu mezesi." },
+          { "name": "Sarımsak Mezesi", "description": "Sarımsak, tahin ve yoğurt ile hazırlanan yoğun aromalı meze." },          
+          { "name": "Yöğurtlu Patlıcan", "description": "Közlenmiş patlıcanın sarımsaklı yoğurt ile birleşimi." },
+          { "name": "Haydari", "description": "Süzme yoğurt, nane ve sarımsak ile hazırlanan geleneksel meze." },                
+          { "name": "Yoğurtlu Biberiye Mantarı", "description": "Sotelenmiş mantarların biberiye ve yoğurtla harmanlanması." },
+          { "name": "Yoğurtlu Patates Salatası", "description": "Haşlanmış patates, taze soğan ve maydanozun yoğurt ile buluşması." }
+
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "Salatalar",
+    "subcategories": [
+      {
+        "title": "Salata Çeşitleri",
+        "items": [
+          { "name": "Gavurdağ Salatası", "description": "Küçük doğranmış domates, salatalık, biber, soğan, ceviz ve nar ekşili özel sos." },
+          { "name": "Yeşil Salata", "description": "Mevsim yeşillikleri, roka ve taze otlardan oluşan, sade soslu salata." },
+          { "name": "Karışık Salata", "description": "Mevsim yeşillikleri ve sebzelerin zeytinyağlı limon sosu ile harmanlanması." },
+          { "name": "Çoban", "description": "Domates, salatalık, biber ve soğan ile hazırlanan, limon ve zeytinyağlı klasik salata." }
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "Deniz Ürünleri",
+    "subcategories": [
+      {
+        "title": "Deniz Ürünleri",
+        "items": [
+          { "name": "Levrek Lakerda", "description": "Dilimlenmiş levrek filetosunun özel sos ile marine edilmesi." },
+          { "name": "Çerkez Tavuğu", "description": "Haşlanmış tavuk, ceviz, ekmek içi ve baharatlarla hazırlanan özel meze." },
+          { "name": "Karides Güveç", "description": "Tereyağı, domates, sarımsak ve kaşar peyniri ile fırında pişmiş karides." },
+          { "name": "Kalamar Tava", "description": "Özel sosla pane edilmiş ve çıtır çıtır kızartılmış kalamar." }
+        ]
+      },
+            {
+        "title": "Izgara Çeşitleri",
+        "items": [
+          { "name": "Somon Izgara", "description": "Izgarada pişirilmiş somon filetosu, yanında yeşil salata ile." },
+          { "name": "Çupra Izgara", "description": "Tüm olarak ızgarada pişirilmiş taze çupra balığı." },
+          { "name": "Kalamar Izgara", "description": "Marine edilmiş kalamarın ızgarada pişirilmesi." }
+
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "Et Seçenekleri",
+    "subcategories": [
+      {
+        "title": "Et Çeşitleri",
+        "items": [
+          { "name": "Bonfile", "description": "Izgarada arzu edilen pişirme derecesinde hazırlanmış dana bonfile." },
+          { "name": "Izgara Köfte", "description": "Özel baharatlarla hazırlanmış köftelerin ızgarada pişirilmesi, yanında pilav." },
+          { "name": "Tavuk Şiş", "description": "Marine edilmiş tavuk parçalarının domates ve biber ile şişte ızgarası." },
+          { "name": "Kuzu Şiş", "description": "Özel marine edilmiş kuzu etinin domates ve biber ile şişte ızgarası." },
+          { "name": "Karışık Izgara", "description": "Bonfile, tavuk şiş, kuzu şiş ve ızgara köfteden oluşan karışık tabak." }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "İçecekler",
+    "subcategories": [
+{
+        "title": "Alkollü İçecekler",
+        "items": [  
+          { "name": "Fıçı Bira", "description": "Bardak Bira "},
+          { "name": "Rakı 35'lik", "description": "35 cl Rakı" },
+          { "name": "Rakı 70'lik", "description": "70 cl Rakı" },
+          { "name": "Rakı 100", "description": "100 cl Rakı" }
+        ]
+      }
+    ]
+  }
+]

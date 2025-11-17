@@ -21,8 +21,8 @@ export default function ClientContact() {
               </div>
               <h3 className="font-serif font-medium text-gray-900 mb-2">Telefon</h3>
               <p className="text-gray-600 text-sm mb-3">Hemen arayın</p>
-              <a href="tel:+905551234567" className="text-gray-800 font-medium hover:underline">
-                +90 (555) 123-4567
+              <a href="tel:+904848848" className="text-gray-800 font-medium hover:underline">
+                +90 (546) 4848-848
               </a>
             </div>
 
@@ -43,7 +43,7 @@ export default function ClientContact() {
               </div>
               <h3 className="font-serif font-medium text-gray-900 mb-2">Adres</h3>
               <p className="text-gray-600 text-sm mb-3">Bizi ziyaret edin</p>
-              <p className="text-gray-800 font-medium">İstanbul, Türkiye</p>
+              <p className="text-gray-800 font-medium">Muğla, Türkiye</p>
             </div>
           </div>
         </div>

@@ -39,8 +39,7 @@ export default function Header() {
           >
             Açık Büfe
           </a>
-          <a
-            // ESKİ: /Pub -> YENİ: /pub-menu
+          <a            
             href="/meyhane"
             className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
           >

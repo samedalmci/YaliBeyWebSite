@@ -10,7 +10,7 @@ import Login from "./Pages/Login/Login.jsx";
 import AdminCalendar from "./Pages/Calendar/AdminCalendar.jsx";
 import MainClientCalendar from "./Pages/Calendar/MainClientCalendar.jsx";
 import MainAbout from "./Pages/About/MainAbout.jsx";
-import Menu from "./Pages/Menu/MainMenu.jsx";
+
 
 import DesignYourOwn from "./Pages/Events/DesignYourOwn.jsx";
 import Weddings from "./Pages/Events/Weddings.jsx";
@@ -47,7 +47,7 @@ export default function App() {
 
       {/* Bilgilendirme Sayfaları */}
       <Route path="/hakkimizda" element={<MainAbout />} />
-      <Route path="/menu" element={<Menu />} />
+  
 
       {/* Menü Detayları */}
       <Route path="/kahvalti" element={<BreakFast />} />
