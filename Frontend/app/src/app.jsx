@@ -15,7 +15,6 @@ import MainAbout from "./Pages/About/MainAbout.jsx";
 import DesignYourOwn from "./Pages/Events/DesignYourOwn.jsx";
 import Weddings from "./Pages/Events/Weddings.jsx";
 import Birthdays from "./Pages/Events/Birthdays.jsx";
-import Corporate from "./Pages/Events/Corporate.jsx";
 import BreakFast from "./Pages/Events/Breakfast.jsx";
 import Pub from "./Pages/Events/Pub.jsx";
 import Buffet from "./Pages/Events/Buffet.jsx";
@@ -57,8 +56,7 @@ export default function App() {
       {/* Etkinlikler ve Organizasyonlar */}
       <Route path="/etkinlikler/kendin-tasarla" element={<DesignYourOwn />} />
       <Route path="/etkinlikler/dugun-organizasyonu" element={<Weddings />} />
-      <Route path="/etkinlikler/dogum-gunu" element={<Birthdays />} />
-      <Route path="/etkinlikler/kurumsal" element={<Corporate />} />
+      <Route path="/etkinlikler/dogum-gunu" element={<Birthdays />} /> 
       <Route path="/etkinlikler/evlilik-teklifi" element={<Proposal />} />
     </Routes>
   );

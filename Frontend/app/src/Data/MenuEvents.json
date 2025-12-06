@@ -8,12 +8,12 @@
         { "icon": "Heart", "text": "Romantik ambiyans ve zarif masa düzenleri" },
         { "icon": "Sparkles", "text": "Kutlamalarınıza özel sunumlar ve detaylı servis hizmeti" }
     ],
-    "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800",
+    "image": "/src/assets/Marrige.png",
     "color": "rose"
     },
 
     {
-    "title": "Doğum Günü",
+    "title": "Yaş Günü",
     "description": "Sevdiklerinizle birlikte keyifli bir doğum günü kutlaması için sıcak atmosferimiz, özenle hazırlanmış lezzetlerimiz ve güleryüzlü ekibimizle yanınızdayız. Her detayı düşünülmüş bir kutlama deneyimi sizi bekliyor.",
     "features": [
         { "icon": "Sparkles", "text": "Kutlamalarınıza enerji katan canlı ve samimi ortam" },
@@ -25,15 +25,15 @@
     "color": "purple"
     },
     {
-    "title": "Kurumsal Etkinlikler",
-    "description": "Şirket toplantılarınızdan lansman kutlamalarına kadar her tür kurumsal organizasyon için profesyonel hizmet sunuyoruz. Kaliteli menülerimiz, konforlu ortamımız ve titiz servis anlayışımızla misafirlerinizi en iyi şekilde ağırlayın.",
+    "title": "Evlilik Teklifi",
+    "description": "Hayatınızın en özel anını, her detayıyla kusursuz ve masalsı bir deneyime dönüştürüyoruz. Sizin ve sevdiğinizin hayallerindeki teklif için profesyonel hizmet, romantik ambiyans ve titiz organizasyon desteği sunuyoruz.",
     "features": [
-        { "icon": "Users", "text": "Toplantı, lansman ve iş yemekleri için uygun alan düzeni" },
-        { "icon": "Utensils", "text": "Kurumlara özel menü seçenekleri ve esnek servis planı" },
-        { "icon": "Award", "text": "Şık sunumlar ve profesyonel atmosfer" },
-        { "icon": "CheckCircle2", "text": "Zamanında servis ve eksiksiz organizasyon desteği" }
+        { "icon": "Users", "text": "Kişiye Özel Konsept ve Romantik Mekan Düzeni" },
+        { "icon": "Utensils", "text": "Gurme Kutlama Menüsü ve Kişiselleştirilmiş Servis Planı" },
+        { "icon": "Sparkles", "text": "Şık, Büyüleyici Sunumlar ve Unutulmaz Atmosfer" },
+        { "icon": "Heart", "text": "Gizlilik, Kusursuz Zamanlama ve Opsiyonel Anı Ölümsüzleştirme Desteği" }
     ],
-    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800",
+    "image": "/src/assets/bridal.jpg",
     "color": "blue"
     },
 
@@ -46,7 +46,7 @@
         { "icon": "Calendar", "text": "Size uygun tarih ve zaman planlaması" },
         { "icon": "Heart", "text": "Her etkinliğe özel kişisel dokunuşlar" }
     ],
-    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
+    "image": "/src/assets/food.png",
     "color": "amber"
     }
 

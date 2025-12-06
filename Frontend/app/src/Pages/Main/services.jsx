@@ -30,12 +30,12 @@ export default function Services() {
 
             <div className="border border-gray-200 rounded-lg p-8 bg-white hover:shadow-xl transition-all duration-300 group">
               <Users className="h-10 w-10 text-gray-400 group-hover:text-blue-600 transition-colors duration-300 mb-6" />
-              <h3 className="text-2xl font-serif font-medium text-gray-900 mb-4">Kurumsal Etkinlikler</h3>
+              <h3 className="text-2xl font-serif font-medium text-gray-900 mb-4">Evlilik Teklifi</h3>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Hassasiyet ve tarzla yürütülen profesyonel konferanslar, galalar ve kurumsal kutlamalar
+                Hayatınızın en özel anı için; hassasiyet, romantizm ve kusursuz bir tarzla yürütülen kişiye özel teklif senaryoları.
               </p>
-              <Link to="/Events/Corporate" className="w-full border border-gray-300 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-md transition-colors">
-                Kurumsal Hizmetleri Görün
+              <Link to="/etkinlikler/evlilik-teklifi" className="w-full border border-gray-300 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-md transition-colors">
+                Evlilik Teklifini Planla
               </Link>
             </div>
 
