@@ -11,7 +11,6 @@ import AdminCalendar from "./Pages/Calendar/AdminCalendar.jsx";
 import MainClientCalendar from "./Pages/Calendar/MainClientCalendar.jsx";
 import MainAbout from "./Pages/About/MainAbout.jsx";
 
-
 import DesignYourOwn from "./Pages/Events/DesignYourOwn.jsx";
 import Weddings from "./Pages/Events/Weddings.jsx";
 import Birthdays from "./Pages/Events/Birthdays.jsx";
@@ -46,7 +45,6 @@ export default function App() {
 
       {/* Bilgilendirme Sayfaları */}
       <Route path="/hakkimizda" element={<MainAbout />} />
-  
 
       {/* Menü Detayları */}
       <Route path="/kahvalti" element={<BreakFast />} />
@@ -56,7 +54,7 @@ export default function App() {
       {/* Etkinlikler ve Organizasyonlar */}
       <Route path="/etkinlikler/kendin-tasarla" element={<DesignYourOwn />} />
       <Route path="/etkinlikler/dugun-organizasyonu" element={<Weddings />} />
-      <Route path="/etkinlikler/dogum-gunu" element={<Birthdays />} /> 
+      <Route path="/etkinlikler/dogum-gunu" element={<Birthdays />} />
       <Route path="/etkinlikler/evlilik-teklifi" element={<Proposal />} />
     </Routes>
   );

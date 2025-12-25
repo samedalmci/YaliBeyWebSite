@@ -5,7 +5,6 @@ import AdminPanel from "./AdminPanel.jsx";
 
 export default function Login() {
   return (
-
     <div>
       <Header />
       <AdminPanel />
