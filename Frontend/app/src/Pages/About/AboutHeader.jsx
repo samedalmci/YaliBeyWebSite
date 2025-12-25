@@ -1,11 +1,9 @@
-
-
 export default function AboutHeader() {
   return (
     <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/src/assets/TalatYali\Mekanİç.jpg"
+          src="/TalatYali\Mekanİç.jpg"
           alt="YalıBey Restaurant"
           className="w-full h-full object-cover"
         />
@@ -19,7 +17,8 @@ export default function AboutHeader() {
           </h1>
           <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
             Sabah kahvaltısından akşam meyhanesine, özel etkinliklerden kurumsal
-            organizasyonlara kadar YalıBey Restaurant, her deneyimi özenle planlar.
+            organizasyonlara kadar YalıBey Restaurant, her deneyimi özenle
+            planlar.
           </p>
         </div>
       </div>

@@ -11,7 +11,7 @@ export default function CorporateEvent() {
       <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/src/assets/WebAsset/office1.jpg"
+            src="/WebAsset/office1.jpg"
             alt="YalıBey Restaurant Kurumsal Etkinlik Alanı"
             className="w-full h-full object-cover"
           />
@@ -24,7 +24,8 @@ export default function CorporateEvent() {
               Kurumsal Etkinlikler, Şıklığın ve Lezzetin Buluşma Noktası
             </h1>
             <p className="text-xl md:text-2xl text-white/95 leading-relaxed drop-shadow-md">
-              İş toplantılarından ekip kutlamalarına, her an profesyonel bir atmosferde.
+              İş toplantılarından ekip kutlamalarına, her an profesyonel bir
+              atmosferde.
             </p>
           </div>
         </div>
@@ -34,7 +35,6 @@ export default function CorporateEvent() {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-
             {/* Başlık */}
             <div className="text-center mb-16">
               <p className="text-sm font-medium text-amber-600 mb-3 tracking-widest uppercase">
@@ -51,7 +51,7 @@ export default function CorporateEvent() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/office2.jpg"
+                    src="/WebAsset/office2.jpg"
                     alt="YalıBey Kurumsal Yemek Düzeni"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -60,12 +60,15 @@ export default function CorporateEvent() {
                   Şirket Toplantıları ve Lansmanlar
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  YalıBey Restaurant, kurumsal organizasyonlar için hem konforlu hem de prestijli bir ortam sunar. 
-                  Toplantılar, lansmanlar ve ekip etkinlikleri için özel olarak düzenlenmiş alanlarımızla hizmet veriyoruz.
+                  YalıBey Restaurant, kurumsal organizasyonlar için hem konforlu
+                  hem de prestijli bir ortam sunar. Toplantılar, lansmanlar ve
+                  ekip etkinlikleri için özel olarak düzenlenmiş alanlarımızla
+                  hizmet veriyoruz.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Her ayrıntı profesyonellik, zarafet ve verimlilik odaklı planlanır. 
-                  Siz işinize odaklanın, biz ortamı mükemmel hale getirelim.
+                  Her ayrıntı profesyonellik, zarafet ve verimlilik odaklı
+                  planlanır. Siz işinize odaklanın, biz ortamı mükemmel hale
+                  getirelim.
                 </p>
               </div>
 
@@ -73,7 +76,7 @@ export default function CorporateEvent() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/office3.jpg"
+                    src="/WebAsset/office3.jpg"
                     alt="Kurumsal Yemek ve Servis Deneyimi"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -82,11 +85,14 @@ export default function CorporateEvent() {
                   Gurme Menü & Özenli Servis
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Şeflerimizin hazırladığı özel menüler, kurumsal etkinliklerinize şıklık ve lezzet katar.  
-                  İster sabah kahvaltısı, ister akşam yemeği — her detay titizlikle hazırlanır.
+                  Şeflerimizin hazırladığı özel menüler, kurumsal
+                  etkinliklerinize şıklık ve lezzet katar. İster sabah
+                  kahvaltısı, ister akşam yemeği — her detay titizlikle
+                  hazırlanır.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Profesyonel servis ekibimiz, konuklarınızın konforu ve memnuniyeti için sürecin her aşamasında yanınızdadır.
+                  Profesyonel servis ekibimiz, konuklarınızın konforu ve
+                  memnuniyeti için sürecin her aşamasında yanınızdadır.
                 </p>
               </div>
             </div>
@@ -94,10 +100,13 @@ export default function CorporateEvent() {
             {/* Alıntı kısmı */}
             <div className="bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 rounded-2xl p-12 text-center shadow-2xl">
               <p className="text-2xl md:text-3xl font-serif font-light text-gray-900 mb-4 italic leading-relaxed">
-                “Başarılı işlerin ardında güçlü ekipler, güçlü ekiplerin ardında doğru ortamlar vardır.”<br />
-                — YalıBey Restaurant, profesyonelliği konforla buluşturur.
+                “Başarılı işlerin ardında güçlü ekipler, güçlü ekiplerin ardında
+                doğru ortamlar vardır.”
+                <br />— YalıBey Restaurant, profesyonelliği konforla buluşturur.
               </p>
-              <p className="text-gray-600 font-medium">— YalıBey Restaurant Ekibi</p>
+              <p className="text-gray-600 font-medium">
+                — YalıBey Restaurant Ekibi
+              </p>
             </div>
 
             {/* GALERİ ALANI */}
@@ -111,18 +120,18 @@ export default function CorporateEvent() {
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="col-span-2 lg:col-span-2">
                   <img
-                    src="/src/assets/WebAsset/office4.jpg"
+                    src="/WebAsset/office4.jpg"
                     alt="Kurumsal Etkinlik Alanı"
                     className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                   />
                 </div>
                 <img
-                  src="/src/assets/WebAsset/office4.jpg"
+                  src="/WebAsset/office4.jpg"
                   alt="Toplantı Masası"
                   className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img
-                  src="/src/assets/WebAsset/office4.jpg"
+                  src="/WebAsset/office4.jpg"
                   alt="Yemek Servisi"
                   className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />

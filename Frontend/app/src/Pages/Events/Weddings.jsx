@@ -11,7 +11,7 @@ export default function Engagement() {
       <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/src/assets/WebAsset/Wedding1.jpg"
+            src="/WebAsset/Wedding1.jpg"
             alt="YalıBey Restaurant Nişan Alanı"
             className="w-full h-full object-cover"
           />
@@ -51,7 +51,7 @@ export default function Engagement() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/Wedding2.jpg"
+                    src="/WebAsset/Wedding2.jpg"
                     alt="Nişan Masası ve Süslemeleri"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -74,7 +74,7 @@ export default function Engagement() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/Wedding3.jpg"
+                    src="/WebAsset/Wedding3.jpg"
                     alt="Nişan Kutlaması"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -116,18 +116,18 @@ export default function Engagement() {
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="col-span-2 lg:col-span-2">
                   <img
-                    src="/src/assets/WebAsset/Wedding4.jpg"
+                    src="/WebAsset/Wedding4.jpg"
                     alt="Nişan Alanı"
                     className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                   />
                 </div>
                 <img
-                  src="/src/assets/WebAsset/Wedding4.jpg"
+                  src="/WebAsset/Wedding4.jpg"
                   alt="Nişan Pastası"
                   className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img
-                  src="/src/assets/WebAsset/Wedding4.jpg"
+                  src="/WebAsset/Wedding4.jpg"
                   alt="Nişan Detayı"
                   className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />

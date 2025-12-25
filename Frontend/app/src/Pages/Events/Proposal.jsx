@@ -11,7 +11,7 @@ export default function Proposal() {
       <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/src/assets/WebAsset//proposa7.jpg"
+            src="/WebAsset//proposa7.jpg"
             alt="YalıBey Restaurant İsteme Alanı"
             className="w-full h-full object-cover"
           />
@@ -51,7 +51,7 @@ export default function Proposal() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/proposa2.png"
+                    src="/WebAsset/proposa2.png"
                     alt="İsteme Masası ve Dekor"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -73,7 +73,7 @@ export default function Proposal() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/proposa3.jpg"
+                    src="/WebAsset/proposa3.jpg"
                     alt="İsteme Kutlaması"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -116,18 +116,18 @@ export default function Proposal() {
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="col-span-2 lg:col-span-2">
                   <img
-                    src="/src/assets/WebAsset/proposa4.jpg"
+                    src="/WebAsset/proposa4.jpg"
                     alt="İsteme Alanı"
                     className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                   />
                 </div>
                 <img
-                  src="/src/assets/WebAsset/proposa4.jpg"
+                  src="/WebAsset/proposa4.jpg"
                   alt="İsteme Masası"
                   className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img
-                  src="/src/assets/WebAsset/proposa4.jpg"
+                  src="/WebAsset/proposa4.jpg"
                   alt="Romantik Detay"
                   className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />

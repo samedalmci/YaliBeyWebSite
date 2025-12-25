@@ -1,13 +1,12 @@
 import Header from "../Layout/header.jsx";
 import Footer from "../Layout/footer.jsx";
 import AboutCTA from "../About/AboutCTA.jsx";
-import MenuSection from "../Menu/MenuSection"
+import MenuSection from "../Menu/MenuSection";
 // import MenuGaleri from "./MenuGaleri.jsx"
 
-import MenuGaleri from "../Menu/MenuGaleri.jsx"
+import MenuGaleri from "../Menu/MenuGaleri.jsx";
 import BreakfastMenu from "../../Data/BreakfastMenu.json";
 import BreakfastGaleri from "../../Data/BreakfastGaleri.json";
-
 
 export default function Breakfast() {
   return (
@@ -18,7 +17,7 @@ export default function Breakfast() {
       <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/src/assets/WebAsset/Breakfast1.jpg"
+            src="/WebAsset/breakfast1.jpg"
             alt="YalıBey Restaurant Kahvaltı Alanı"
             className="w-full h-full object-cover"
           />
@@ -58,7 +57,7 @@ export default function Breakfast() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/Breakfast2.jpg"
+                    src="/WebAsset/breakfast2.jpg"
                     alt="Kahvaltı Sofrası"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -81,7 +80,7 @@ export default function Breakfast() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/Breakfast3.jpg"
+                    src="/WebAsset/breakfast3.jpg"
                     alt="Kahvaltı Sunumu"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -101,12 +100,8 @@ export default function Breakfast() {
             </div>
 
             <MenuSection menuCategories={BreakfastMenu} />
-            
 
-
-
-            <MenuGaleri slides={BreakfastGaleri}/>
-        
+            <MenuGaleri slides={BreakfastGaleri} />
           </div>
         </div>
       </section>

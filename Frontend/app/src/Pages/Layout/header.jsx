@@ -11,7 +11,7 @@ export default function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img
-            src="/src/assets/TalatYali/YaliBeyLogos.png"
+            src="/TalatYali/YaliBeyLogos.png"
             alt="YALIBEY RESTAURANT Logo"
             className="h-25 w-60 object-contain" // h-20 w-20 denenebilir
           />
@@ -39,7 +39,7 @@ export default function Header() {
           >
             Açık Büfe
           </a>
-          <a            
+          <a
             href="/meyhane"
             className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
           >

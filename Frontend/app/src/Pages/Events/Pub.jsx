@@ -3,11 +3,10 @@ import Footer from "../Layout/footer.jsx";
 import AboutCTA from "../About/AboutCTA.jsx";
 import { Clock, MapPin } from "lucide-react";
 
-import MenuGaleri from "../Menu/MenuGaleri.jsx"
-import MenuSection from "../Menu/MenuSection"
+import MenuGaleri from "../Menu/MenuGaleri.jsx";
+import MenuSection from "../Menu/MenuSection";
 import PubMenu from "../../Data/PubMenu.json";
 import PubGaleri from "../../Data/PubGaleri.json";
-
 
 export default function Tavern() {
   const serviceTimes = [
@@ -16,7 +15,7 @@ export default function Tavern() {
     { time: "21:00", note: "Gece Servisi" },
     { time: "22:30", note: "Son Sefer" },
   ];
-  
+
   return (
     <div>
       <Header />
@@ -25,7 +24,7 @@ export default function Tavern() {
       <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/src/assets/WebAsset/Tavern1.jpg"
+            src="/WebAsset/Tavern1.jpg"
             alt="YalıBey Restaurant Meyhane Alanı"
             className="w-full h-full object-cover"
           />
@@ -63,7 +62,7 @@ export default function Tavern() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/Tavern2.jpg"
+                    src="/WebAsset/Tavern2.jpg"
                     alt="YalıBey Meyhane Masası ve Mezeler"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -85,7 +84,7 @@ export default function Tavern() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/Tavern4.jpg"
+                    src="/WebAsset/Tavern4.jpg"
                     alt="Meyhane Ortamı"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -106,8 +105,7 @@ export default function Tavern() {
 
             <MenuSection menuCategories={PubMenu} />
 
-            <MenuGaleri slides={PubGaleri}/>
-
+            <MenuGaleri slides={PubGaleri} />
 
             <div className="mt-32 mb-24">
               <div className="text-center mb-12">
@@ -125,7 +123,7 @@ export default function Tavern() {
                 {/* Sol taraf - Görsel Alanı */}
                 <div className="relative min-h-[300px] md:min-h-full">
                   <img
-                    src="/src/assets/WebAsset/vito.jpg"
+                    src="/WebAsset/vito.jpg"
                     alt="Lüks Servis Aracı"
                     className="w-full h-full object-cover"
                   />

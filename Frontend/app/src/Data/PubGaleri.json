@@ -1,51 +1,51 @@
 [
   {
-    "image": "/src/assets/TalatYali/bonfile cafe de paris soslu.jpg",
+    "image": "/TalatYali/bonfile cafe de paris soslu.jpg",
     "title": "Bonfile Café de Paris Soslu",
     "description": "Bonfile (Tenderloin) eti, Café de Paris sosu (tereyağı, otlar ve baharat karışımı) ve yanında garnitür olarak sunulur."
   },
   {
-    "image": "/src/assets/TalatYali/chilli con carne.jpg",
+    "image": "/TalatYali/chilli con carne.jpg",
     "title": "Chilli Con Carne",
     "description": "Kıyma, fasulye, domates ve baharatlarla hazırlanan Meksika usulü acı güveç."
   },
   {
-    "image": "/src/assets/TalatYali/lazanya.jpg",
+    "image": "/TalatYali/lazanya.jpg",
     "title": "Fırın Lazanya",
     "description": "Kıymalı bolonez sosu, beşamel sosu ve peynirle fırınlanmış kat kat İtalyan makarnası."
   },
   {
-    "image": "/src/assets/TalatYali/kalamar tava.jpg",
+    "image": "/TalatYali/kalamar tava.jpg",
     "title": "Kalamar Tava",
     "description": "Özel sosla pane edilmiş ve çıtır çıtır kızartılmış kalamar."
   },
   {
-    "image": "/src/assets/TalatYali/ızgara çipura.jpg",
+    "image": "/TalatYali/ızgara çipura.jpg",
     "title": "Çupra Izgara",
     "description": "Tüm olarak ızgarada pişirilmiş taze çupra balığı."
   },
   {
-    "image": "/src/assets/TalatYali/ızgara kalamar.jpg",
+    "image": "/TalatYali/ızgara kalamar.jpg",
     "title": "Kalamar Izgara",
     "description": "Marine edilmiş kalamarın ızgarada pişirilmesi."
   },
   {
-    "image": "/src/assets/TalatYali/ızgara köfte.jpg",
+    "image": "/TalatYali/ızgara köfte.jpg",
     "title": "Izgara Köfte",
     "description": "Özel baharatlarla hazırlanmış köftelerin ızgarada pişirilmesi, yanında pilav."
   },
   {
-    "image": "/src/assets/TalatYali/ızgara somon.jpg",
+    "image": "/TalatYali/ızgara somon.jpg",
     "title": "Somon Izgara",
     "description": "Izgarada pişirilmiş somon filetosu, yanında yeşil salata ile."
   },
   {
-    "image": "/src/assets/TalatYali/karışık ızgara.jpg",
+    "image": "/TalatYali/karışık ızgara.jpg",
     "title": "Karışık Izgara",
     "description": "Bonfile, tavuk şiş, kuzu şiş ve ızgara köfteden oluşan karışık tabak."
   },
   {
-    "image": "/src/assets/TalatYali/tavuk şiş.jpg",
+    "image": "/TalatYali/tavuk şiş.jpg",
     "title": "Tavuk Şiş",
     "description": "Marine edilmiş tavuk parçalarının domates ve biber ile şişte ızgarası."
   }

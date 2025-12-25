@@ -11,7 +11,7 @@ export default function OpenBuffet() {
       <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/src/assets/TalatYali\Yemek3.jpg"
+            src="/TalatYali\Yemek3.jpg"
             alt="YalıBey Restaurant Açık Büfe Alanı"
             className="w-full h-full object-cover"
           />
@@ -51,7 +51,7 @@ export default function OpenBuffet() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/TalatYali/Yemek18.jpg"
+                    src="/TalatYali/Yemek18.jpg"
                     alt="YalıBey Açık Büfe Masası"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -74,7 +74,7 @@ export default function OpenBuffet() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/TalatYali/Yemek19.jpg"
+                    src="/TalatYali/Yemek19.jpg"
                     alt="YalıBey Açık Büfe Servisi"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -116,18 +116,18 @@ export default function OpenBuffet() {
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="col-span-2 lg:col-span-2">
                   <img
-                    src="/src/assets/TalatYali/Yemek9.jpg"
+                    src="/TalatYali/Yemek9.jpg"
                     alt="YalıBey Açık Büfe Alanı"
                     className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                   />
                 </div>
                 <img
-                  src="/src/assets/TalatYali/Yemek8.jpg"
+                  src="/TalatYali/Yemek8.jpg"
                   alt="Açık Büfe Seçenekleri"
                   className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img
-                  src="/src/assets/TalatYali/Yemek7.jpg"
+                  src="/TalatYali/Yemek7.jpg"
                   alt="Tatlı ve Salata Büfesi"
                   className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />

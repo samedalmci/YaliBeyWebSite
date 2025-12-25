@@ -11,7 +11,7 @@ export default function Birthdays() {
       <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/src/assets/WebAsset/Birthday1.jpg"
+            src="/WebAsset/Birthday1.jpg"
             alt="YalıBey Restaurant Doğum Günü Alanı"
             className="w-full h-full object-cover"
           />
@@ -51,7 +51,7 @@ export default function Birthdays() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/Birthday2.jpg"
+                    src="/WebAsset/Birthday2.jpg"
                     alt="Doğum Günü Masası ve Süslemeleri"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -73,7 +73,7 @@ export default function Birthdays() {
               <div>
                 <div className="mb-8">
                   <img
-                    src="/src/assets/WebAsset/Birthday3.jpg"
+                    src="/WebAsset/Birthday3.jpg"
                     alt="Doğum Günü Kutlaması"
                     className="w-full h-80 object-cover rounded-2xl shadow-2xl"
                   />
@@ -116,18 +116,18 @@ export default function Birthdays() {
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="col-span-2 lg:col-span-2">
                   <img
-                    src="/src/assets/WebAsset/Birthday4.jpg"
+                    src="/WebAsset/Birthday4.jpg"
                     alt="Doğum Günü Kutlama Alanı"
                     className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                   />
                 </div>
                 <img
-                  src="/src/assets/WebAsset/Birthday4.jpg"
+                  src="/WebAsset/Birthday4.jpg"
                   alt="Doğum Günü Pastası"
                   className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img
-                  src="/src/assets/WebAsset/Birthday4.jpg"
+                  src="/WebAsset/Birthday4.jpg"
                   alt="Kutlama Detayı"
                   className="w-full h-[30rem] object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />

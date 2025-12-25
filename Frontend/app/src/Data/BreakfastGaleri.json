@@ -1,36 +1,36 @@
 [
   {
-    "image": "/src/assets/TalatYali/egg bennedict.jpg",
+    "image": "/TalatYali/egg bennedict.jpg",
     "title": "Egg Benedict",
     "description": "Tereyağlı muffin üzerinde poşe yumurta ve Hollandez sosun mükemmel uyumu."
   },
   {
-    "image": "/src/assets/TalatYali/french toast.jpg",
+    "image": "/TalatYali/french toast.jpg",
     "title": "French Toast",
     "description": "Tatlı bir başlangıç: Tarçın, bal ve meyvelerle zenginleştirilmiş Fransız tostu."
   },
   {
-    "image": "/src/assets/TalatYali/gözleme.jpg",
+    "image": "/TalatYali/gözleme.jpg",
     "title": "El Açması Gözleme",
     "description": "Taze hamurla hazırlanan geleneksel lezzet, kahvaltı sofralarının vazgeçilmezi."
   },
   {
-    "image": "/src/assets/TalatYali/ızgara köfte.jpg",
+    "image": "/TalatYali/ızgara köfte.jpg",
     "title": "Izgara Köfte",
     "description": "Geleneksel tarifle hazırlanmış, sulu ve doyurucu ızgara köftemiz."
   },
   {
-    "image": "/src/assets/TalatYali/sosis tava.jpg",
+    "image": "/TalatYali/sosis tava.jpg",
     "title": "Sosis Tava",
     "description": "Baharatlı mini sosisler, özel sosla buluşarak keyifli bir başlangıç sunar."
   },
   {
-    "image": "/src/assets/TalatYali/taze meyve suları.jpg",
+    "image": "/TalatYali/taze meyve suları.jpg",
     "title": "Taze Meyve Suları",
     "description": "Doğal ve ferahlatıcı içecekler, güne enerjik bir başlangıç için ideal."
   },
   {
-    "image": "/src/assets/TalatYali/yoğurt kasesi.jpg",
+    "image": "/TalatYali/yoğurt kasesi.jpg",
     "title": "Yoğurt Kasesi",
     "description": "Taze meyve, granola ve bal ile hazırlanmış hafif ve sağlıklı bir alternatif."
   }

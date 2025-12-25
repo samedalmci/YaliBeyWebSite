@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <span className="text-lg font-serif font-semibold tracking-wide">
                 <img
-                  src="/src/assets/TalatYali/YaliBeyLogos.png"
+                  src="/TalatYali/YaliBeyLogos.png"
                   alt="YALIBEY RESTAURANT Logo"
                   className="h-25 w-60 object-contain" // h-20 w-20 denenebilir
                 />

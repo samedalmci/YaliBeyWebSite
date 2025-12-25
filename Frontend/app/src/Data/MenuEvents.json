@@ -1,53 +1,91 @@
 [
-    {
+  {
     "title": "Düğünler ve Nişanlar",
     "description": "Hayatınızın en özel gününü lezzet ve zarafetle buluşturuyoruz. Düğün ve nişan organizasyonlarınız için şık atmosferimiz, özenle hazırlanmış menülerimiz ve profesyonel servis ekibimizle unutulmaz bir davet sunuyoruz.",
     "features": [
-        { "icon": "Utensils", "text": "Her zevke uygun özenle hazırlanmış düğün ve nişan menüleri" },
-        { "icon": "Users", "text": "Konuklarınıza konforlu ve keyifli bir deneyim" },
-        { "icon": "Heart", "text": "Romantik ambiyans ve zarif masa düzenleri" },
-        { "icon": "Sparkles", "text": "Kutlamalarınıza özel sunumlar ve detaylı servis hizmeti" }
+      {
+        "icon": "Utensils",
+        "text": "Her zevke uygun özenle hazırlanmış düğün ve nişan menüleri"
+      },
+      {
+        "icon": "Users",
+        "text": "Konuklarınıza konforlu ve keyifli bir deneyim"
+      },
+      { "icon": "Heart", "text": "Romantik ambiyans ve zarif masa düzenleri" },
+      {
+        "icon": "Sparkles",
+        "text": "Kutlamalarınıza özel sunumlar ve detaylı servis hizmeti"
+      }
     ],
-    "image": "/src/assets/Marrige.png",
+    "image": "/Marrige.png",
     "color": "rose"
-    },
+  },
 
-    {
+  {
     "title": "Yaş Günü",
     "description": "Sevdiklerinizle birlikte keyifli bir doğum günü kutlaması için sıcak atmosferimiz, özenle hazırlanmış lezzetlerimiz ve güleryüzlü ekibimizle yanınızdayız. Her detayı düşünülmüş bir kutlama deneyimi sizi bekliyor.",
     "features": [
-        { "icon": "Sparkles", "text": "Kutlamalarınıza enerji katan canlı ve samimi ortam" },
-        { "icon": "Utensils", "text": "İsteğe göre düzenlenebilen doğum günü menüleri" },
-        { "icon": "Users", "text": "Arkadaşlarınız ve ailenizle rahatça vakit geçirebileceğiniz özel alanlar" },
-        { "icon": "Heart", "text": "Güleryüzlü servis ekibimizden özel ilgi ve sıcak karşılama" }
+      {
+        "icon": "Sparkles",
+        "text": "Kutlamalarınıza enerji katan canlı ve samimi ortam"
+      },
+      {
+        "icon": "Utensils",
+        "text": "İsteğe göre düzenlenebilen doğum günü menüleri"
+      },
+      {
+        "icon": "Users",
+        "text": "Arkadaşlarınız ve ailenizle rahatça vakit geçirebileceğiniz özel alanlar"
+      },
+      {
+        "icon": "Heart",
+        "text": "Güleryüzlü servis ekibimizden özel ilgi ve sıcak karşılama"
+      }
     ],
-    "image": "/src/assets/HappyBirthday.jpg",
+    "image": "/HappyBirthday.jpg",
     "color": "purple"
-    },
-    {
+  },
+  {
     "title": "Evlilik Teklifi",
     "description": "Hayatınızın en özel anını, her detayıyla kusursuz ve masalsı bir deneyime dönüştürüyoruz. Sizin ve sevdiğinizin hayallerindeki teklif için profesyonel hizmet, romantik ambiyans ve titiz organizasyon desteği sunuyoruz.",
     "features": [
-        { "icon": "Users", "text": "Kişiye Özel Konsept ve Romantik Mekan Düzeni" },
-        { "icon": "Utensils", "text": "Gurme Kutlama Menüsü ve Kişiselleştirilmiş Servis Planı" },
-        { "icon": "Sparkles", "text": "Şık, Büyüleyici Sunumlar ve Unutulmaz Atmosfer" },
-        { "icon": "Heart", "text": "Gizlilik, Kusursuz Zamanlama ve Opsiyonel Anı Ölümsüzleştirme Desteği" }
+      {
+        "icon": "Users",
+        "text": "Kişiye Özel Konsept ve Romantik Mekan Düzeni"
+      },
+      {
+        "icon": "Utensils",
+        "text": "Gurme Kutlama Menüsü ve Kişiselleştirilmiş Servis Planı"
+      },
+      {
+        "icon": "Sparkles",
+        "text": "Şık, Büyüleyici Sunumlar ve Unutulmaz Atmosfer"
+      },
+      {
+        "icon": "Heart",
+        "text": "Gizlilik, Kusursuz Zamanlama ve Opsiyonel Anı Ölümsüzleştirme Desteği"
+      }
     ],
-    "image": "/src/assets/bridal.jpg",
+    "image": "/bridal.jpg",
     "color": "blue"
-    },
+  },
 
-    {
+  {
     "title": "Etkinliğini Kendin Tasarla",
     "description": "Kahvaltıdan doğum gününe, dilediğiniz konsepti siz belirleyin. Menünüzü, masa düzeninizi ve atmosferinizi tamamen zevkinize göre şekillendirin. Biz, her detayı titizlikle hayata geçiriyoruz.",
     "features": [
-        { "icon": "Sparkles", "text": "Kendi konseptinizi ve süslemelerinizi seçin" },
-        { "icon": "Utensils", "text": "Menüleri damak zevkinize göre özelleştirin" },
-        { "icon": "Calendar", "text": "Size uygun tarih ve zaman planlaması" },
-        { "icon": "Heart", "text": "Her etkinliğe özel kişisel dokunuşlar" }
+      {
+        "icon": "Sparkles",
+        "text": "Kendi konseptinizi ve süslemelerinizi seçin"
+      },
+      {
+        "icon": "Utensils",
+        "text": "Menüleri damak zevkinize göre özelleştirin"
+      },
+      { "icon": "Calendar", "text": "Size uygun tarih ve zaman planlaması" },
+      { "icon": "Heart", "text": "Her etkinliğe özel kişisel dokunuşlar" }
     ],
-    "image": "/src/assets/food.png",
+    "image": "/food.png",
     "color": "amber"
-    }
-
+  }
 ]
