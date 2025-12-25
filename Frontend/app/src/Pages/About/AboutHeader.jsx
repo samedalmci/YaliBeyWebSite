@@ -3,7 +3,7 @@ export default function AboutHeader() {
     <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/TalatYali\Mekanİç.jpg"
+          src="/TalatYali/Mekanİç.jpg"
           alt="YalıBey Restaurant"
           className="w-full h-full object-cover"
         />
